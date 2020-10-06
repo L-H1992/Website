@@ -1,0 +1,161 @@
+/* Applies to all content unless cancelled out*/
+
+body{
+font-family: 'Ubuntu', sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  float: center;
+  text-align: left;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.content{
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  text-align: center;
+}
+
+.post{
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+ul{
+  list-style-position: inside;
+}
+
+img{
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+}
+               /*Texts*/
+h1{
+font-family: 'Ubuntu', sans-serif;
+font-size: 30px;
+}
+
+h2{
+text-transform: uppercase;
+font-weight: bold;
+font-size: 15px;
+color: pink;
+letter-spacing: 0.25rem;
+}
+
+p{
+font-size: 15px;
+}
+
+
+.quote{
+width: 100%;
+border-top: 1px solid pink;
+border-bottom: 3px solid pink;
+}
+
+#quote {
+font-style: italic;
+border-left: 5px solid pink;
+padding-left: 5px;
+}
+
+#speaker{
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+
+.extra{
+margin-left: 16px;
+font-size: .8em;
+color: grey;
+}            
+
+
+
+	   /* Top navigation bar*/
+.fa-home{
+text-align: left;
+}
+
+.nav{
+  overflow: hidden;
+  position: fixed ;
+  top: 0;
+  width: 100%;
+  background: pink;
+  border: 2px dotted pink;
+  text-align: center;
+  word-spacing: 50px;
+  text-decoration: none;
+}
+.nav a {
+  float: left;
+  display: inline-block;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+.nav a:hover{
+  color: #ffffff;
+}
+
+               /*Heading*/
+.heading{
+ margin-bottom: 50px;
+ margin-top: 50px;
+}
+
+#heading{
+ text-weight: bold;
+ font-size: 5rem;
+ background: none;
+}
+
+               /*Applies to all links*/
+a{
+text-decoration: none;
+color: #000000;
+}
+
+a:hover{
+color: pink;
+}
+
+a:visted{
+colour: blue;
+}
+
+              /*Contact page*/
+form {
+  text-align: center;
+}
+              /*Footer*/
+footer{
+background: pink;
+padding-top: 0.5px;
+padding-bottom: 0.5px;
+}
+
+#footer{
+color: #000000;
+text-align: center;
+word-spacing: 5px;
+border-bottom: 0;
+}
+
+
+.details{
+  padding-left: 25px;
+}
+
+.why{
+flex-grow: 8;
+padding-left: 25px;
+}
+
